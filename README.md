@@ -2,7 +2,7 @@
 ---------------
 # php和java通信工具的搭建
 
-
+</br>
 
 ## php-java-bridge
 
@@ -10,15 +10,15 @@
  
 The PHP/Java Bridge is an implementation of a streaming, XML-based network protocol, which can be used to connect a native script engine, for example PHP, Scheme or Python, with a Java virtual machine. It is up to 50 times faster than local RPC via SOAP, requires less resources on the web-server side. It is faster and more reliable than direct communication via the Java Native Interface, and it requires no additional components to invoke Java procedures from PHP or PHP procedures from Java.
 
+</br>
 
-
-# 下载地址
+## 下载地址
 
 [php-java-bridge](http://php-java-bridge.sourceforge.net/pjb/download.php)
 
 
 
-
+</br>
 
 
 ## 版本与环境
@@ -31,7 +31,7 @@ php-java-bridge | 官方最新版本,当前测试为6.2.1
 操作系统 | Windows7 32位/64位或者Linux(Centos6.5)
 
 
-
+</br>
 
 
 ## 安装和使用 
@@ -54,7 +54,7 @@ php-java-bridge | 官方最新版本,当前测试为6.2.1
 (注：第1点中的javabridge.jar是在第一步:安装中第3点中获得的)
 
 
-
+</br>
 
 
 ## 其他使用方法和注意事项
