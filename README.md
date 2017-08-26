@@ -21,7 +21,7 @@ The PHP/Java Bridge is an implementation of a streaming, XML-based network proto
 </br>
 
 
-## 版本与环境
+## 版本环境
 
  内容 | 版本
  ---  | ---
@@ -34,7 +34,7 @@ php-java-bridge | 官方最新版本,当前测试为6.2.1
 </br>
 
 
-## 安装和使用 
+## 安装使用 
 
 ### 第一步：安装 
 1. JDK的安装：正常安装即可，并配置好环境变量
@@ -58,20 +58,16 @@ php-java-bridge | 官方最新版本,当前测试为6.2.1
 </br>
 
 
-## 其他使用方法和注意事项
+## 注意事项
 
 
 
-### 关于PHP-Java-Bridge的各种函数使用：
+### 函数使用：
 1. 高版本的java_require不再使用,也无法使用,由于放到java虚拟机下面,则不需要再手动引入包文件 
 2. java_value()用于获取值,而且必须使用该函数获取值  
-
 (特别注意：如果该值需要存入数据库，那么必须使用该java_value函数,不然会报错，或者无法存入数据库) 
-
 3. java_inspect()对实例化或者方法进行print_r类似的输出 
-
 (注：请不要直接使用var_dump这样的输出方法输出java的类、方法、变量，需要使用java_inspect或者java_value，例如：var_dump(java_inspect($abc))) 
-
 4. 实例化使用 $test = new Java("Test")的方式,如果实例化的方法中存在参数,可以这样new Java("Test","pram") 
 
 
